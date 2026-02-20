@@ -12,10 +12,9 @@
     <nav id="navbar" class="navbar">
         <div class="container">
             <div class="nav-content">
-                <a href="#" class="logo">
-                    <span class="logo-text">Manboba Mngqithi <span class="logo-highlight">Foundation</span></span>
+                <a href="index.php" class="logo">
+                    <img src="images/logo.png" alt="MMF Logo" class="logo-img">
                 </a>
-
                 <div class="nav-links desktop-nav">
                     <a href="#about" class="nav-link">About</a>
                     <a href="#purpose" class="nav-link">Our Purpose</a>
@@ -47,7 +46,7 @@
     <!-- Hero Section -->
     <section class="hero" id="hero">
         <div class="hero-bg">
-            <img src="https://images.unsplash.com/photo-1729962380300-d8c242371ef1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxTb3V0aCUyMEFmcmljYW4lMjB5b3V0aCUyMGVtcG93ZXJtZW50fGVufDF8fHx8MTc3MTI3NTc2MXww&ixlib=rb-4.1.0&q=80&w=1080" alt="Youth empowerment">
+            <img src="images/Homepage.jpeg" alt="Youth empowerment">
             <div class="hero-overlay"></div>
             <div class="hero-gradient"></div>
         </div>
@@ -66,7 +65,8 @@
                 </h1>
 
                 <p class="hero-description animate-fade-in-up" style="animation-delay: 0.6s">
-                    Developing talent and creating opportunities for young people across South Africa
+                   The Manqoba Mngqithi Foundation is committed to developing youth talent across South
+                    Africa through sports, education, and community empowerment initiatives
                 </p>
 
                 <div class="hero-buttons animate-fade-in-up" style="animation-delay: 0.8s">
@@ -98,7 +98,7 @@
         <div class="container">
             <div class="about-grid">
                 <div class="about-image animate-on-scroll">
-                    <img src="https://images.unsplash.com/photo-1768637757037-31720529ee53?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b3V0aCUyMGVkdWNhdGlvbiUyMGNvbW11bml0eXxlbnwxfHx8fDE3NzEyNzU3NjF8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Youth community">
+                    <img src="images/about.jpeg" alt="Youth community">
                     <div class="image-overlay"></div>
                     <div class="about-decoration deco-1"></div>
                     <div class="about-decoration deco-2"></div>
@@ -126,35 +126,19 @@
 
                     <div class="about-text">
                         <p>
-                            The <strong>Manboba Mngqithi Foundation</strong> was established to develop youth talent in the Harry Gwala District, starting with Umzimkhulu. Our journey began with a vision to create meaningful opportunities for young people in underserved communities.
+                            The <strong>Manqoba Mngqithi Foundation,</strong> established in Umzimkhulu, KwaZulu Natal, focuses on holistic youth development. We go beyond talent identification by nurturing mental, emotional, educational, and technical growth to build well-rounded future leaders.
                         </p>
 
-                        <p>
-                            After successfully launching our programmes and initiatives in these areas, we realized the same need existed in various rural and urban communities around the country. This realization transformed our mission.
-                        </p>
+                    <button class="btn btn-primary btn-lg" onclick="scrollToSection('about')">
+                        Read More
+                    </button>
 
-                        <p>
-                            Our mandate expanded to <strong>providing opportunities for developing youth talent across South Africa</strong>. Today, we work tirelessly to bridge the gap between potential and opportunity, ensuring that every young person has access to the resources and support they need to thrive.
-                        </p>
-                    </div>
 
-                    <div class="about-indicators">
-                        <div class="indicator">
-                            <div class="indicator-icon">📚</div>
-                            <div class="indicator-label">Education</div>
-                        </div>
-                        <div class="indicator">
-                            <div class="indicator-icon">⚡</div>
-                            <div class="indicator-label">Skills</div>
-                        </div>
-                        <div class="indicator">
-                            <div class="indicator-icon">💼</div>
-                            <div class="indicator-label">Jobs</div>
-                        </div>
-                    </div>
+
                 </div>
-            </div>
-        </div>
+            </div><!-- /.about-content -->
+        </div><!-- /.about-grid -->
+        </div><!-- /.container -->
     </section>
 
     <!-- Purpose Section -->
@@ -176,7 +160,7 @@
                     Driving <span class="gradient-text-green-light">Meaningful Change</span>
                 </h2>
                 <p class="section-description text-gray-light">
-                    Our mission is built on four foundational pillars that guide everything we do
+                  Our programmes are designed to empower youth and strengthen communities through sports mentorship, educational support, food security, and health initiatives.
                 </p>
             </div>
 
@@ -207,6 +191,8 @@
                     </div>
                 </div>
 
+                <!-- Our Impact Page more information  
+
                 <div class="purpose-card animate-on-scroll" style="animation-delay: 0.3s">
                     <div class="purpose-icon icon-orange">
                         <i class="fas fa-dollar-sign"></i>
@@ -220,6 +206,7 @@
                     </div>
                 </div>
 
+
                 <div class="purpose-card animate-on-scroll" style="animation-delay: 0.4s">
                     <div class="purpose-icon icon-purple">
                         <i class="fas fa-handshake"></i>
@@ -232,7 +219,11 @@
                         <i class="fas fa-handshake"></i>
                     </div>
                 </div>
+               -->
             </div>
+             <button class="btn btn-primary btn-lg" onclick="scrollToSection('about')">
+                     Explore Programmes
+              </button>
         </div>
     </section>
 
@@ -245,7 +236,6 @@
 
         <div class="container">
             <div class="section-header animate-on-scroll">
-                <div class="impact-emoji">🎯</div>
 
                 <h2 class="section-title text-white">
                     Our <span class="glowing-text">Impact</span>
@@ -272,24 +262,6 @@
                     <div class="impact-number" data-target="50">0</div>
                     <div class="impact-suffix">+</div>
                     <div class="impact-label">Communities Reached</div>
-                </div>
-
-                <div class="impact-stat animate-on-scroll" style="animation-delay: 0.3s">
-                    <div class="impact-icon icon-orange-bg">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <div class="impact-number" data-target="1200">0</div>
-                    <div class="impact-suffix">+</div>
-                    <div class="impact-label">Jobs Created</div>
-                </div>
-
-                <div class="impact-stat animate-on-scroll" style="animation-delay: 0.4s">
-                    <div class="impact-icon icon-purple-bg">
-                        <i class="fas fa-award"></i>
-                    </div>
-                    <div class="impact-number" data-target="85">0</div>
-                    <div class="impact-suffix">%</div>
-                    <div class="impact-label">Success Rate</div>
                 </div>
             </div>
 
@@ -427,8 +399,9 @@
 
         <div class="container">
             <div class="cta-content animate-on-scroll">
+                <!--
                 <div class="cta-emoji">🤝</div>
-
+                --> 
                 <h2 class="section-title text-white">
                     Ready to Make a <span class="glowing-text-orange">Difference?</span>
                 </h2>
@@ -438,11 +411,11 @@
                 </p>
 
                 <div class="contact-grid">
-                    <a href="mailto:info@manbobafoundation.org.za" class="contact-card animate-on-scroll" style="animation-delay: 0.1s">
+                    <a href="mailto:info@manqobamngqithifoundation.org" class="contact-card animate-on-scroll" style="animation-delay: 0.1s">
                         <div class="contact-corner"></div>
                         <i class="fas fa-envelope contact-icon"></i>
                         <h3 class="contact-title">Email Us</h3>
-                        <p class="contact-info">info@manbobafoundation.org.za</p>
+                        <p class="contact-info">info@manqobamngqithifoundation.org</p>
                     </a>
 
                     <a href="tel:+27123456789" class="contact-card animate-on-scroll" style="animation-delay: 0.2s">
@@ -471,12 +444,15 @@
                     </button>
                 </div>
 
+                <!--
                 <div class="trust-badges animate-on-scroll">
                     <span class="trust-badge">🏆 Award Winning</span>
                     <span class="trust-badge">✓ Verified NPO</span>
                     <span class="trust-badge">💚 Community Trusted</span>
                     <span class="trust-badge">⭐ 5-Star Rated</span>
                 </div>
+                -->
+
             </div>
         </div>
     </section>
@@ -533,8 +509,8 @@
     </footer>
 
     <!-- Scroll to Top Button -->
-    <button class="scroll-top" id="scrollTopBtn">
-        <i class="fas fa-chevron-up"></i>
+    <button class="scroll-top" id="scrollTopBtn" title="Back to top">
+        <i class="fas fa-arrow-up"></i>
     </button>
 
     <script src="js/main.js"></script>

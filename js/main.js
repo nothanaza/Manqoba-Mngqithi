@@ -11,18 +11,22 @@ const navbar = document.getElementById('navbar');
 const progressBar = document.getElementById('progressBar');
 
 window.addEventListener('scroll', () => {
-    // Add scrolled class
-    if (window.scrollY > 50) {
-        navbar.classList.add('scrolled');
-    } else {
-        navbar.classList.remove('scrolled');
+    // Add scrolled class if navbar exists
+    if (navbar) {
+        if (window.scrollY > 50) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
     }
 
-    // Update progress bar
-    const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    const scrolled = (winScroll / height) * 100;
-    progressBar.style.transform = `scaleX(${scrolled / 100})`;
+    // Update progress bar only when present (guard against pages without it)
+    if (progressBar) {
+        const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        const scrolled = (winScroll / height) * 100;
+        progressBar.style.transform = `scaleX(${scrolled / 100})`;
+    }
 });
 
 // Mobile menu toggle
@@ -33,12 +37,14 @@ if (mobileMenuBtn && mobileMenu) {
     mobileMenuBtn.addEventListener('click', () => {
         mobileMenu.classList.toggle('active');
         const icon = mobileMenuBtn.querySelector('i');
-        if (mobileMenu.classList.contains('active')) {
-            icon.classList.remove('fa-bars');
-            icon.classList.add('fa-times');
-        } else {
-            icon.classList.remove('fa-times');
-            icon.classList.add('fa-bars');
+        if (icon) {
+            if (mobileMenu.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            } else {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
         }
     });
 
@@ -48,8 +54,10 @@ if (mobileMenuBtn && mobileMenu) {
         link.addEventListener('click', () => {
             mobileMenu.classList.remove('active');
             const icon = mobileMenuBtn.querySelector('i');
-            icon.classList.remove('fa-times');
-            icon.classList.add('fa-bars');
+            if (icon) {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
         });
     });
 }
@@ -72,17 +80,20 @@ function createParticles() {
 
 // Intersection Observer for scroll animations
 const observerOptions = {
-    threshold: 0.2,
-    rootMargin: '0px 0px -100px 0px'
+    threshold: 0.15,
+    rootMargin: '0px'
 };
 
-const observer = new IntersectionObserver((entries) => {
+const observer = new IntersectionObserver((entries, observer) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
             entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
         }
     });
-}, observerOptions);
+}, {
+    threshold: 0.1
+});
 
 // Observe all elements with animate-on-scroll class
 function observeElements() {
@@ -217,7 +228,6 @@ function createImpactParticles() {
         particle.style.position = 'absolute';
         particle.style.width = '8px';
         particle.style.height = '8px';
-        particle.style.background = 'rgba(255, 255, 255, 0.2)';
         particle.style.borderRadius = '50%';
         particle.style.left = Math.random() * 100 + '%';
         particle.style.top = Math.random() * 100 + '%';
@@ -366,20 +376,29 @@ function initCardEffects() {
     });
 }
 
+// Helper to run a function without crashing the rest of the script
+function safeRun(fn) {
+    try {
+        fn();
+    } catch (err) {
+        console.error('Animation error:', err);
+    }
+}
+
 // Initialize all animations and effects
 function init() {
-    createParticles();
-    observeElements();
-    observeStats();
-    parallaxEffect();
-    initProgramCards();
-    initPurposeCards();
-    createImpactParticles();
-    createProgramParticles();
-    createCTAOrbs();
-    initButtonEffects();
-    lazyLoadImages();
-    initCardEffects();
+    safeRun(createParticles);
+    safeRun(observeElements);
+    safeRun(observeStats);
+    safeRun(parallaxEffect);
+    safeRun(initProgramCards);
+    safeRun(initPurposeCards);
+    safeRun(createImpactParticles);
+    safeRun(createProgramParticles);
+    safeRun(createCTAOrbs);
+    safeRun(initButtonEffects);
+    safeRun(lazyLoadImages);
+    safeRun(initCardEffects);
 }
 
 // Run initialization when DOM is ready
@@ -388,6 +407,11 @@ if (document.readyState === 'loading') {
 } else {
     init();
 }
+
+// fallback: if animations haven't triggered after a few seconds, reveal everything
+setTimeout(() => {
+    document.querySelectorAll('.animate-on-scroll').forEach(el => el.classList.add('visible'));
+}, 3000);
 
 // Add keyboard navigation
 document.addEventListener('keydown', (e) => {
@@ -432,3 +456,4 @@ window.addEventListener('load', () => {
 console.log('%c🌟 Manboba Mngqithi Foundation', 'color: #22c55e; font-size: 20px; font-weight: bold;');
 console.log('%cEmpowering South African Youth', 'color: #f97316; font-size: 14px;');
 console.log('%cBuilt with ❤️ for the future of South Africa', 'color: #6b7280; font-size: 12px;');
+
