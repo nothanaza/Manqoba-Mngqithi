@@ -5,43 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - Manboba Mngqithi Foundation</title>
     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav id="navbar" class="navbar">
-        <div class="container">
-            <div class="nav-content">
-                <a href="index.php" class="logo">
-                    <img src="images/logo.png" alt="MMF Logo" class="logo-img">
-                </a>
-                <div class="nav-links desktop-nav">
-                    <a href="about.php" class="nav-link">About</a>
-                    <a href="#purpose" class="nav-link">Our Purpose</a>
-                    <a href="#programs" class="nav-link">Programs</a>
-                    <a href="#impact" class="nav-link">Impact</a>
-                    <a href="#contact" class="nav-link">Contact</a>
-                    <button class="btn btn-primary" onclick="scrollToSection('contact')">Get Involved</button>
-                </div>
-
-                <button class="mobile-menu-btn" id="mobileMenuBtn">
-                    <i class="fas fa-bars"></i>
-                </button>
-            </div>
-        </div>
-
-        <!-- Mobile Menu -->
-        <div class="mobile-menu" id="mobileMenu">
-            <a href="#about" class="mobile-link">About</a>
-            <a href="#purpose" class="mobile-link">Our Purpose</a>
-            <a href="#programs" class="mobile-link">Programs</a>
-            <a href="#impact" class="mobile-link">Impact</a>
-            <a href="#contact" class="mobile-link">Contact</a>
-            <button class="btn btn-primary btn-block" onclick="scrollToSection('contact')">Get Involved</button>
-        </div>
-
-        <div class="progress-bar" id="progressBar"></div>
-    </nav>
+    <?php include 'header.php'; ?>
 
     <!-- Page Header -->
     <section class="page-header">
@@ -524,6 +492,6 @@
         <i class="fas fa-chevron-up"></i>
     </button>
 
-    <script src="script.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

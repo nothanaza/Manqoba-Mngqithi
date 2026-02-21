@@ -18,7 +18,7 @@
                 <div class="nav-links desktop-nav">
                     <a href="about.php" class="nav-link">About</a>
                     <a href="#purpose" class="nav-link">Our Purpose</a>
-                    <a href="#programs" class="nav-link">Programs</a>
+                    <a href="programs.php" class="nav-link">Programs</a>
                     <a href="#impact" class="nav-link">Impact</a>
                     <a href="#contact" class="nav-link">Contact</a>
                     <button class="btn btn-primary" onclick="scrollToSection('contact')">Get Involved</button>

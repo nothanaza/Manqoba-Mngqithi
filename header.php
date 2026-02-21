@@ -11,10 +11,9 @@
                 <a href="about.php" class="nav-link">About</a>
                 <a href="programs.php" class="nav-link">Programs</a>
                 <a href="impact.php" class="nav-link">Impact</a>
-                <a href="get-involved.php" class="nav-link">Get Involved</a>
                 <a href="gallery.php" class="nav-link">Gallery</a>
                 <a href="contact.php" class="nav-link">Contact</a>
-                <button class="btn btn-primary" onclick="window.location.href='contact.php'">Donate</button>
+                <button class="btn btn-primary" onclick="window.location.href='contact.php'">Get Involved</button>
             </div>
 
             <button class="mobile-menu-btn" id="mobileMenuBtn">
@@ -29,10 +28,9 @@
         <a href="about.php" class="mobile-link">About</a>
         <a href="programs.php" class="mobile-link">Programs</a>
         <a href="impact.php" class="mobile-link">Impact</a>
-        <a href="get-involved.php" class="mobile-link">Get Involved</a>
         <a href="gallery.php" class="mobile-link">Gallery</a>
         <a href="contact.php" class="mobile-link">Contact</a>
-        <button class="btn btn-primary btn-block" onclick="window.location.href='contact.php'">Donate</button>
+        <button class="btn btn-primary btn-block" onclick="window.location.href='contact.php'">Get Involved<</button>
     </div>
 
     <div class="progress-bar" id="progressBar"></div>
