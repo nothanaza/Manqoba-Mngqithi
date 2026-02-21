@@ -4,16 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - Manboba Mngqithi Foundation</title>
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <?php include 'header.php'; ?>
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.php" class="logo">
+                    <img src="images/logo.png" alt="MMF Logo" class="logo-img">
+                </a>
+                <div class="nav-links desktop-nav">
+                    <a href="about.php" class="nav-link">About</a>
+                    <a href="#purpose" class="nav-link">Our Purpose</a>
+                    <a href="#programs" class="nav-link">Programs</a>
+                    <a href="#impact" class="nav-link">Impact</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <button class="btn btn-primary" onclick="scrollToSection('contact')">Get Involved</button>
+                </div>
+
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#about" class="mobile-link">About</a>
+            <a href="#purpose" class="mobile-link">Our Purpose</a>
+            <a href="#programs" class="mobile-link">Programs</a>
+            <a href="#impact" class="mobile-link">Impact</a>
+            <a href="#contact" class="mobile-link">Contact</a>
+            <button class="btn btn-primary btn-block" onclick="scrollToSection('contact')">Get Involved</button>
+        </div>
+
+        <div class="progress-bar" id="progressBar"></div>
+    </nav>
 
     <!-- Page Header -->
     <section class="page-header">
         <div class="header-bg">
-            <img src="https://images.unsplash.com/photo-1729962380300-d8c242371ef1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxTb3V0aCUyMEFmcmljYW4lMjB5b3V0aCUyMGVtcG93ZXJtZW50fGVufDF8fHx8MTc3MTI3NTc2MXww&ixlib=rb-4.1.0&q=80&w=1080" alt="About Us">
+            <img src="images/about.jpeg" alt="About Us">
             <div class="header-overlay"></div>
             <div class="header-gradient"></div>
         </div>
@@ -21,11 +54,6 @@
         <div class="header-particles" id="headerParticles"></div>
 
         <div class="container header-content">
-            <div class="breadcrumb animate-fade-in-up" style="animation-delay: 0.2s">
-                <a href="index.php">Home</a>
-                <i class="fas fa-chevron-right"></i>
-                <span>About Us</span>
-            </div>
 
             <h1 class="page-title animate-fade-in-up" style="animation-delay: 0.4s">
                 Our <span class="gradient-text">Story</span>

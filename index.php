@@ -16,7 +16,7 @@
                     <img src="images/logo.png" alt="MMF Logo" class="logo-img">
                 </a>
                 <div class="nav-links desktop-nav">
-                    <a href="#about" class="nav-link">About</a>
+                    <a href="about.php" class="nav-link">About</a>
                     <a href="#purpose" class="nav-link">Our Purpose</a>
                     <a href="#programs" class="nav-link">Programs</a>
                     <a href="#impact" class="nav-link">Impact</a>
@@ -227,60 +227,14 @@
         </div>
     </section>
 
-    <!-- Impact Section -->
-    <section class="impact" id="impact">
-        <div class="impact-bg">
-            <div class="mesh-overlay"></div>
-            <div class="floating-particles"></div>
-        </div>
-
-        <div class="container">
-            <div class="section-header animate-on-scroll">
-
-                <h2 class="section-title text-white">
-                    Our <span class="glowing-text">Impact</span>
-                </h2>
-                <p class="section-description text-green-light">
-                    Making a tangible difference in the lives of young South Africans
-                </p>
-            </div>
-
-            <div class="impact-grid">
-                <div class="impact-stat animate-on-scroll" style="animation-delay: 0.1s">
-                    <div class="impact-icon icon-blue-bg">
-                        <i class="fas fa-users"></i>
-                    </div>
-                    <div class="impact-number" data-target="5000">0</div>
-                    <div class="impact-suffix">+</div>
-                    <div class="impact-label">Youth Empowered</div>
-                </div>
-
-                <div class="impact-stat animate-on-scroll" style="animation-delay: 0.2s">
-                    <div class="impact-icon icon-green-bg">
-                        <i class="fas fa-map-marker-alt"></i>
-                    </div>
-                    <div class="impact-number" data-target="50">0</div>
-                    <div class="impact-suffix">+</div>
-                    <div class="impact-label">Communities Reached</div>
-                </div>
-            </div>
-
-            <div class="impact-footer animate-on-scroll">
-                <p class="impact-message">
-                    ✨ Together, we're building a brighter future for South Africa ✨
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Programs Section -->
+     <!-- Programs Section -->
     <section class="programs" id="programs">
         <div class="programs-bg"></div>
 
         <div class="container">
             <div class="section-header animate-on-scroll">
                 <div class="section-badge section-badge-orange">
-                    <span class="bouncing-emoji">🚀</span>
+                   <!-- <span class="bouncing-emoji">🚀</span> -->
                     Our Programs
                 </div>
 
@@ -295,7 +249,7 @@
             <div class="programs-grid">
                 <div class="program-card animate-on-scroll" style="animation-delay: 0.1s">
                     <div class="program-image">
-                        <img src="https://images.unsplash.com/photo-1721153669404-a2cb374bf5ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxTb3V0aCUyMEFmcmljYW4lMjBzdHVkZW50cyUyMGxlYXJuaW5nfGVufDF8fHx8MTc3MTI3NTc2MXww&ixlib=rb-4.1.0&q=80&w=1080" alt="Education">
+                        <img src="images/game.jpeg" alt="Education">
                         <div class="program-overlay gradient-blue"></div>
                         <div class="program-icon icon-blue">
                             <i class="fas fa-graduation-cap"></i>
@@ -317,7 +271,7 @@
 
                 <div class="program-card animate-on-scroll" style="animation-delay: 0.2s">
                     <div class="program-image">
-                        <img src="https://images.unsplash.com/photo-1761039808159-f02b58f07032?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb21tdW5pdHklMjBkZXZlbG9wbWVudCUyMEFmcmljYXxlbnwxfHx8fDE3NzEyNzU3NjF8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Technology">
+                        <img src="images/education.jpeg" alt="Technology">
                         <div class="program-overlay gradient-purple"></div>
                         <div class="program-icon icon-purple">
                             <i class="fas fa-code"></i>
@@ -326,7 +280,7 @@
                     </div>
                     <div class="program-content">
                         <div class="program-border gradient-purple-border"></div>
-                        <h3 class="program-title">Digital Literacy & Technology</h3>
+                        <h3 class="program-title">Community Development</h3>
                         <p class="program-description">
                             Equipping youth with essential digital skills and technology knowledge to thrive in the modern economy.
                         </p>
@@ -337,6 +291,7 @@
                     </div>
                 </div>
 
+                <!--
                 <div class="program-card animate-on-scroll" style="animation-delay: 0.3s">
                     <div class="program-image">
                         <img src="https://images.unsplash.com/photo-1729962380300-d8c242371ef1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxTb3V0aCUyMEFmcmljYW4lMjB5b3V0aCUyMGVtcG93ZXJtZW50fGVufDF8fHx8MTc3MTI3NTc2MXww&ixlib=rb-4.1.0&q=80&w=1080" alt="Entrepreneurship">
@@ -381,11 +336,65 @@
                     </div>
                 </div>
             </div>
+        -->
+        
+            <button class="btn btn-primary btn-lg" onclick="scrollToSection('about')">
+                    View Our Impact 
+              </button>
 
-            <div class="programs-footer animate-on-scroll">
-                <div class="programs-badge">
-                    💡 <strong>New programs</strong> launching soon - Stay tuned!
+
+        </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section class="impact" id="impact">
+        <div class="impact-bg">
+            <div class="mesh-overlay"></div>
+            <div class="floating-particles"></div>
+        </div>
+
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+
+                <h2 class="section-title text-white">
+                    Our <span class="glowing-text">Impact</span>
+                </h2>
+                <p class="section-description text-green-light">
+                    From hosting youth football tournaments in partnership with SAFA to delivering 
+                    food parcels to vulnerable households, our initiatives have positively impacted 
+                    communities in Harry Gwala District and beyond.
+                </p>
+            </div>
+
+            <div class="impact-grid">
+                <div class="impact-stat animate-on-scroll" style="animation-delay: 0.1s">
+                    <div class="impact-icon icon-blue-bg">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="impact-number" data-target="5000">0</div>
+                    <div class="impact-suffix">+</div>
+                    <div class="impact-label">Youth Empowered</div>
                 </div>
+
+                <div class="impact-stat animate-on-scroll" style="animation-delay: 0.2s">
+                    <div class="impact-icon icon-green-bg">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="impact-number" data-target="50">0</div>
+                    <div class="impact-suffix">+</div>
+                    <div class="impact-label">Communities Reached</div>
+                </div>
+            </div>
+
+            <div class="impact-footer animate-on-scroll">
+                <p class="impact-message">
+                    ✨ Together, we're building a brighter future for South Africa ✨
+                </p>
+
+                 <button class="btn btn-primary btn-lg" onclick="scrollToSection('about')">
+                    View Our Impact 
+              </button>
+
             </div>
         </div>
     </section>
