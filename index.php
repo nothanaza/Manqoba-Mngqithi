@@ -95,12 +95,14 @@
                         <p>
                             The <strong>Manqoba Mngqithi Foundation,</strong> established in Umzimkhulu, KwaZulu Natal, focuses on holistic youth development. We go beyond talent identification by nurturing mental, emotional, educational, and technical growth to build well-rounded future leaders.
                         </p>
+                    </div>
 
-                    <button class="btn btn-primary btn-lg" onclick="scrollToSection('about')">
-                        Read More
-                    </button>
-
-
+                    <div class="section-btn-wrapper" style="justify-content: flex-start; margin-top: 1.5rem;">
+                        <a href="about.php" class="btn btn-primary btn-lg">
+                            Read More
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
 
                 </div>
             </div><!-- /.about-content -->
@@ -187,9 +189,12 @@
                 </div>
                -->
             </div>
-             <button class="btn btn-primary btn-lg" onclick="scrollToSection('about')">
-                     Explore Programmes
-              </button>
+            <div class="section-btn-wrapper" style="display:flex;justify-content:center;margin-top:2.5rem;">
+                <a href="programs.php" class="btn btn-outline btn-lg">
+                    Explore Programmes
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
         </div>
     </section>
 
@@ -303,13 +308,13 @@
                 </div>
             </div>
         -->
-        
-            <button class="btn btn-primary btn-lg" onclick="scrollToSection('about')">
-                    View Our Impact 
-              </button>
-
-
         </div>
+         <div class="section-btn-wrapper" style="display:flex;justify-content:center;margin-top:2.5rem;">
+                <a href="programs.php" class="btn btn-primary btn-lg">
+                    View All Programs
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
     </section>
 
     <!-- Impact Section -->
@@ -375,9 +380,12 @@
                     ✨ Together, we're building a brighter future for South Africa ✨
                 </p>
 
-                 <button class="btn btn-primary btn-lg" onclick="scrollToSection('about')">
-                    View Our Impact 
-              </button>
+                <div class="section-btn-wrapper">
+                    <a href="impact.php" class="btn btn-outline btn-lg">
+                        View Our Full Impact
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
 
             </div>
         </div>

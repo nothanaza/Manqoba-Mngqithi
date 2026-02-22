@@ -3,7 +3,7 @@
     <div class="container">
         <div class="nav-content">
             <a href="index.php" class="logo">
-                <span class="logo-text">Manboba Mngqithi <span class="logo-highlight">Foundation</span></span>
+                <span class="logo-text">MMF <span class="logo-highlight">Foundation</span></span>
             </a>
 
             <div class="nav-links desktop-nav">

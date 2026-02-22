@@ -266,7 +266,7 @@ body {
 .nav-links {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .nav-link {
@@ -1388,37 +1388,18 @@ body {
 .trust-badge:nth-child(3) { animation-delay: 0.4s; }
 .trust-badge:nth-child(4) { animation-delay: 0.6s; }
 
-.btn {
-    position: relative;
-    padding: 0.9rem 2rem;
-    border-radius: 50px;
-    font-weight: 600;
-    font-size: 1rem;
-    border: none;
-    cursor: pointer;
-    transition: all 0.3s ease;
+
+/* CTA button overrides for the dark CTA section */
+
+/* Section Button Wrapper — centred CTA below section content */
+.section-btn-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
 }
 
-.btn-light {
-    background: white;
-    color: var(--orange-600);
-}
-
-.btn-light:hover {
-    background: #fff7ed;
-    transform: translateY(-3px);
-}
-
-.btn-outline-light {
-    background: transparent;
-    border: 2px solid white;
-    color: white;
-}
-
-.btn-outline-light:hover {
-    background: white;
-    color: var(--orange-600);
-    transform: translateY(-3px);
+.section-btn-wrapper .btn {
+    min-width: 200px;
 }
 
 /* Footer */
@@ -1572,14 +1553,6 @@ body {
 
 /* Responsive Design */
 @media (min-width: 768px) {
-    .desktop-nav {
-        display: flex;
-    }
-
-    .mobile-menu-btn {
-        display: none;
-    }
-
     .about-grid,
     .purpose-grid,
     .impact-grid,
@@ -1602,6 +1575,13 @@ body {
 }
 
 @media (min-width: 1024px) {
+    .desktop-nav {
+        display: flex;
+    }
+
+    .mobile-menu-btn {
+        display: none;
+    }
     .hero-title {
         font-size: 4rem;
     }
@@ -2424,22 +2404,30 @@ body {
     }
 }
 
+/* Page Header — shared across all inner pages */
+.page-header {
+    position: relative;
+    height: 60vh;
+    min-height: 420px;
+    margin-top: 80px; /* clear fixed navbar */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    color: white;
+}
+
+.page-header .container,
+.page-header .header-content {
+    position: relative;
+    z-index: 10;
+}
+
 @media (min-width: 1024px) {
     .page-header {
         height: 70vh;
     }
-
-    .timeline-item:hover .timeline-content {
-        transform: translateX(20px);
-    }
-
-    .timeline-item:nth-child(even):hover .timeline-content {
-        transform: translateX(-20px);
-    }
 }
-}
-
-/* Programs Page */
 
 /* Programs Page Specific Styles */
 
@@ -4162,4 +4150,5 @@ body {
     .donation-impact {
         grid-template-columns: repeat(4, 1fr);
     }
+}
 }
