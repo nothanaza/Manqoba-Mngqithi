@@ -13,7 +13,7 @@
                 <a href="impact.php" class="nav-link">Impact</a>
                 <a href="gallery.php" class="nav-link">Gallery</a>
                 <a href="contact.php" class="nav-link">Contact</a>
-                <button class="btn btn-primary" onclick="window.location.href='contact.php'">Get Involved</button>
+                <button class="btn btn-primary" onclick="window.location.href='get-involved.php'">Get Involved</button>
             </div>
 
             <button class="mobile-menu-btn" id="mobileMenuBtn">
@@ -30,7 +30,7 @@
         <a href="impact.php" class="mobile-link">Impact</a>
         <a href="gallery.php" class="mobile-link">Gallery</a>
         <a href="contact.php" class="mobile-link">Contact</a>
-        <button class="btn btn-primary btn-block" onclick="window.location.href='contact.php'">Get Involved<</button>
+        <button class="btn btn-primary btn-block" onclick="window.location.href='get-involved.php'">Get Involved</button>
     </div>
 
     <div class="progress-bar" id="progressBar"></div>

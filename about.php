@@ -437,55 +437,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-bg"></div>
-
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-about">
-                    <h3 class="footer-title">Manboba Mngqithi <span class="text-green">Foundation</span></h3>
-                    <p class="footer-description">
-                        Empowering youth across South Africa through education, skills development, and community transformation.
-                    </p>
-                    <div class="social-links">
-                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-
-                <div class="footer-links">
-                    <h4 class="footer-heading">Quick Links</h4>
-                    <ul>
-                        <li><a href="about.php">About Us</a></li>
-                        <li><a href="index.php#purpose">Our Purpose</a></li>
-                        <li><a href="index.php#programs">Programs</a></li>
-                        <li><a href="index.php#impact">Impact</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-links">
-                    <h4 class="footer-heading">Get Involved</h4>
-                    <ul>
-                        <li><a href="index.php#contact">Volunteer</a></li>
-                        <li><a href="index.php#contact">Donate</a></li>
-                        <li><a href="index.php#contact">Partner</a></li>
-                        <li><a href="index.php#contact">Contact Us</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="footer-bottom">
-                <p class="copyright">
-                    © <?php echo date('Y'); ?> Manboba Mngqithi Foundation. All rights reserved.
-                </p>
-                <p class="made-with">
-                    Made with <i class="fas fa-heart heart-icon"></i> for South African youth
-                </p>
-            </div>
-        </div>
-    </footer>
+    <?php include 'footer.php'; ?>
 
     <!-- Scroll to Top Button -->
     <button class="scroll-top" id="scrollTopBtn">

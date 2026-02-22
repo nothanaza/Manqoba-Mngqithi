@@ -8,41 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav id="navbar" class="navbar">
-        <div class="container">
-            <div class="nav-content">
-                <a href="index.php" class="logo">
-                    <img src="images/logo.png" alt="MMF Logo" class="logo-img">
-                </a>
-                <div class="nav-links desktop-nav">
-                    <a href="about.php" class="nav-link">About</a>
-                    <a href="#purpose" class="nav-link">Our Purpose</a>
-                    <a href="programs.php" class="nav-link">Programs</a>
-                    <a href="#impact" class="nav-link">Impact</a>
-                    <a href="#contact" class="nav-link">Contact</a>
-                    <button class="btn btn-primary" onclick="scrollToSection('contact')">Get Involved</button>
-                </div>
-
-                <button class="mobile-menu-btn" id="mobileMenuBtn">
-                    <i class="fas fa-bars"></i>
-                </button>
-            </div>
-        </div>
-
-        <!-- Mobile Menu -->
-        <div class="mobile-menu" id="mobileMenu">
-            <a href="#about" class="mobile-link">About</a>
-            <a href="#purpose" class="mobile-link">Our Purpose</a>
-            <a href="#programs" class="mobile-link">Programs</a>
-            <a href="#impact" class="mobile-link">Impact</a>
-            <a href="#contact" class="mobile-link">Contact</a>
-            <button class="btn btn-primary btn-block" onclick="scrollToSection('contact')">Get Involved</button>
-        </div>
-
-        <div class="progress-bar" id="progressBar"></div>
-    </nav>
-
+    <?php include 'header.php'; ?>
+    
     <!-- Hero Section -->
     <section class="hero" id="hero">
         <div class="hero-bg">
@@ -151,8 +118,7 @@
 
         <div class="container">
             <div class="section-header animate-on-scroll">
-                <div class="section-badge section-badge-light">
-                    <span class="rotating-emoji">⭐</span>
+                <div class="section-badge section-badge-light"> 
                     Our Purpose
                 </div>
 
@@ -384,6 +350,24 @@
                     <div class="impact-suffix">+</div>
                     <div class="impact-label">Communities Reached</div>
                 </div>
+                
+                 <div class="impact-stat animate-on-scroll" style="animation-delay: 0.3s">
+                    <div class="impact-icon icon-orange-bg">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="impact-number" data-target="1200">0</div>
+                    <div class="impact-suffix">+</div>
+                    <div class="impact-label">Jobs Created</div>
+                </div>
+
+                <div class="impact-stat animate-on-scroll" style="animation-delay: 0.4s">
+                    <div class="impact-icon icon-purple-bg">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="impact-number" data-target="85">0</div>
+                    <div class="impact-suffix">%</div>
+                    <div class="impact-label">Success Rate</div>
+                </div>
             </div>
 
             <div class="impact-footer animate-on-scroll">
@@ -467,56 +451,8 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-bg"></div>
-
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-about">
-                    <h3 class="footer-title">Manboba Mngqithi <span class="text-green">Foundation</span></h3>
-                    <p class="footer-description">
-                        Empowering youth across South Africa through education, skills development, and community transformation.
-                    </p>
-                    <div class="social-links">
-                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-
-                <div class="footer-links">
-                    <h4 class="footer-heading">Quick Links</h4>
-                    <ul>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#purpose">Our Purpose</a></li>
-                        <li><a href="#programs">Programs</a></li>
-                        <li><a href="#impact">Impact</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-links">
-                    <h4 class="footer-heading">Get Involved</h4>
-                    <ul>
-                        <li><a href="#contact">Volunteer</a></li>
-                        <li><a href="#contact">Donate</a></li>
-                        <li><a href="#contact">Partner</a></li>
-                        <li><a href="#contact">Contact Us</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="footer-bottom">
-                <p class="copyright">
-                    © <?php echo date('Y'); ?> Manboba Mngqithi Foundation. All rights reserved.
-                </p>
-                <p class="made-with">
-                    Made with <i class="fas fa-heart heart-icon"></i> for South African youth
-                </p>
-            </div>
-        </div>
-    </footer>
-
+     <?php include 'footer.php'; ?>
+    
     <!-- Scroll to Top Button -->
     <button class="scroll-top" id="scrollTopBtn" title="Back to top">
         <i class="fas fa-arrow-up"></i>
