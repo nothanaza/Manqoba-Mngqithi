@@ -13,18 +13,21 @@
     <!-- Page Header -->
     <section class="page-header">
         <div class="header-bg">
-            <img src="https://images.unsplash.com/photo-1729962380300-d8c242371ef1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxTb3V0aCUyMEFmcmljYW4lMjB5b3V0aCUyMGVtcG93ZXJtZW50fGVufDF8fHx8MTc3MTI3NTc2MXww&ixlib=rb-4.1.0&q=80&w=1080" alt="Gallery">
+            <img src="images/about.jpeg" alt="Gallery">
             <div class="header-overlay"></div>
             <div class="header-gradient"></div>
         </div>
 
+
+        <!--
         <div class="container header-content">
             <div class="breadcrumb animate-fade-in-up" style="animation-delay: 0.2s">
                 <a href="index.php">Home</a>
                 <i class="fas fa-chevron-right"></i>
                 <span>Gallery</span>
             </div>
-
+            -->
+            
             <h1 class="page-title animate-fade-in-up" style="animation-delay: 0.4s">
                 Our <span class="gradient-text">Gallery</span>
             </h1>

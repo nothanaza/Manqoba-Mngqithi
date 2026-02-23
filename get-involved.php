@@ -13,7 +13,7 @@
     <!-- Page Header -->
     <section class="page-header">
         <div class="header-bg">
-            <img src="https://images.unsplash.com/photo-1768637757037-31720529ee53?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b3V0aCUyMGVkdWNhdGlvbiUyMGNvbW11bml0eXxlbnwxfHx8fDE3NzEyNzU3NjF8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Get Involved">
+            <img src="images/about.jpeg" alt="Get Involved">
             <div class="header-overlay"></div>
             <div class="header-gradient"></div>
         </div>

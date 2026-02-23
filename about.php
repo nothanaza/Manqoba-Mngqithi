@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Manboba Mngqithi Foundation</title>
+    <title>About Us - Manqoba Mngqithi Foundation</title>
     <link rel="stylesheet" href="css/style.css">
      <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -67,7 +67,7 @@
                         <div class="timeline-year">The Beginning</div>
                         <h3 class="timeline-title">Born from Community Need</h3>
                         <p class="timeline-description">
-                            The Manboba Mngqithi Foundation was established with a clear purpose: to develop youth talent in the Harry Gwala District, with a special focus on Umzimkhulu. Our founder recognized the immense potential within these communities and the lack of opportunities available to young people eager to succeed.
+                            The Manqoba Mngqithi Foundation was established with a clear purpose: to develop youth talent in the Harry Gwala District, with a special focus on Umzimkhulu. Our founder recognized the immense potential within these communities and the lack of opportunities available to young people eager to succeed.
                         </p>
                     </div>
                 </div>
@@ -119,7 +119,7 @@
                         <div class="timeline-year">Today</div>
                         <h3 class="timeline-title">A Movement for Change</h3>
                         <p class="timeline-description">
-                            Today, the Manboba Mngqithi Foundation stands as a beacon of hope for thousands of young South Africans. We've empowered over 5,000 youth, established programs in more than 50 communities, and created sustainable pathways to success. But our journey is far from over - every young person we reach inspires us to reach further and aim higher.
+                            Today, the Manqoba Mngqithi Foundation stands as a beacon of hope for thousands of young South Africans. We've empowered over 5,000 youth, established programs in more than 50 communities, and created sustainable pathways to success. But our journey is far from over - every young person we reach inspires us to reach further and aim higher.
                         </p>
                     </div>
                 </div>
@@ -291,7 +291,7 @@
                 <div class="founder-grid">
                     <div class="founder-image-section animate-on-scroll">
                         <div class="founder-image-wrapper">
-                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBhZnJpY2FuJTIwbWFufGVufDF8fHx8MTc3MTI3NTc2MXww&ixlib=rb-4.1.0&q=80&w=1080" alt="Manqoba Mngqithi">
+                            <img src="images/membeers.jpeg" alt="Manqoba Mngqithi">
                             <div class="founder-image-overlay"></div>
                             <div class="founder-image-border"></div>
                         </div>
@@ -405,7 +405,6 @@
 
         <div class="container">
             <div class="cta-content animate-on-scroll">
-                <div class="cta-emoji">🤝</div>
 
                 <h2 class="section-title text-white">
                     Join Our <span class="glowing-text-orange">Journey</span>
@@ -426,12 +425,15 @@
                     </button>
                 </div>
 
+            <!--
                 <div class="trust-badges">
                     <span class="trust-badge">🏆 Award Winning</span>
                     <span class="trust-badge">✓ Verified NPO</span>
                     <span class="trust-badge">💚 Community Trusted</span>
                     <span class="trust-badge">⭐ 5-Star Rated</span>
                 </div>
+             -->
+
             </div>
         </div>
     </section>

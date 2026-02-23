@@ -13,17 +13,19 @@
     <!-- Page Header -->
     <section class="page-header">
         <div class="header-bg">
-            <img src="https://images.unsplash.com/photo-1729962380300-d8c242371ef1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxTb3V0aCUyMEFmcmljYW4lMjB5b3V0aCUyMGVtcG93ZXJtZW50fGVufDF8fHx8MTc3MTI3NTc2MXww&ixlib=rb-4.1.0&q=80&w=1080" alt="Our Impact">
+            <img src="images/about.jpeg" alt="Our Impact">
             <div class="header-overlay"></div>
             <div class="header-gradient"></div>
         </div>
 
         <div class="container header-content">
-            <div class="breadcrumb animate-fade-in-up" style="animation-delay: 0.2s">
+           <!--
+        <div class="breadcrumb animate-fade-in-up" style="animation-delay: 0.2s">
                 <a href="index.php">Home</a>
                 <i class="fas fa-chevron-right"></i>
                 <span>Our Impact</span>
             </div>
+                -->
 
             <h1 class="page-title animate-fade-in-up" style="animation-delay: 0.4s">
                 Our <span class="gradient-text">Impact</span>
@@ -110,7 +112,7 @@
             <div class="stories-grid">
                 <div class="story-card animate-on-scroll">
                     <div class="story-image">
-                        <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwd29tYW4lMjBwcm9mZXNzaW9uYWx8ZW58MXx8fHwxNzcxMjc1NzYxfDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Thandi Mbatha">
+                        <img src="images/membeers.jpeg" alt="Thandi Mbatha">
                     </div>
                     <div class="story-content">
                         <div class="story-quote">
@@ -130,7 +132,7 @@
 
                 <div class="story-card animate-on-scroll" style="animation-delay: 0.1s">
                     <div class="story-image">
-                        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwbWFuJTIwcHJvZmVzc2lvbmFsfGVufDF8fHx8MTc3MTI3NTc2MXww&ixlib=rb-4.1.0&q=80&w=1080" alt="Sipho Dlamini">
+                        <img src="images/members2.jpeg" alt="Sipho Dlamini">
                     </div>
                     <div class="story-content">
                         <div class="story-quote">
@@ -150,7 +152,7 @@
 
                 <div class="story-card animate-on-scroll" style="animation-delay: 0.2s">
                     <div class="story-image">
-                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwd29tYW4lMjBzbWlsaW5nfGVufDF8fHx8MTc3MTI3NTc2MXww&ixlib=rb-4.1.0&q=80&w=1080" alt="Nomsa Khumalo">
+                        <img src="images/membeers.jpeg" alt="Nomsa Khumalo">
                     </div>
                     <div class="story-content">
                         <div class="story-quote">
