@@ -19,15 +19,17 @@
         </div>
 
 
-        <!--
+       
         <div class="container header-content">
+
+         <!--
             <div class="breadcrumb animate-fade-in-up" style="animation-delay: 0.2s">
                 <a href="index.php">Home</a>
                 <i class="fas fa-chevron-right"></i>
                 <span>Gallery</span>
             </div>
             -->
-            
+
             <h1 class="page-title animate-fade-in-up" style="animation-delay: 0.4s">
                 Our <span class="gradient-text">Gallery</span>
             </h1>

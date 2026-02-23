@@ -18,13 +18,16 @@
             <div class="header-gradient"></div>
         </div>
 
+       <!--
         <div class="container header-content">
             <div class="breadcrumb animate-fade-in-up" style="animation-delay: 0.2s">
                 <a href="index.php">Home</a>
                 <i class="fas fa-chevron-right"></i>
                 <span>Get Involved</span>
             </div>
-
+            -->
+            
+             <div class="container header-content">
             <h1 class="page-title animate-fade-in-up" style="animation-delay: 0.4s">
                 Get <span class="gradient-text">Involved</span>
             </h1>
