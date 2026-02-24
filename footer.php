@@ -10,16 +10,17 @@
                     Empowering youth across South Africa through education, skills development, and community transformation.
                 </p>
                 <div class="social-links">
-                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://facebook.com" target="_blank" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="https://linkedin.com" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
 
             <div class="footer-links">
                 <h4 class="footer-heading">Quick Links</h4>
                 <ul>
+                    <li><a href="index.php">Home</a></li>
                     <li><a href="about.php">About Us</a></li>
                     <li><a href="programs.php">Programs</a></li>
                     <li><a href="impact.php">Our Impact</a></li>
@@ -30,9 +31,9 @@
             <div class="footer-links">
                 <h4 class="footer-heading">Get Involved</h4>
                 <ul>
-                    <li><a href="get-involved.php">Volunteer</a></li>
-                    <li><a href="contact.php">Donate</a></li>
-                    <li><a href="get-involved.php">Partner With Us</a></li>
+                    <li><a href="get-involved.php#volunteer">Volunteer</a></li>
+                    <li><a href="get-involved.php#donation">Donate</a></li>
+                    <li><a href="get-involved.php#partner">Partner With Us</a></li>
                     <li><a href="contact.php">Contact Us</a></li>
                 </ul>
             </div>

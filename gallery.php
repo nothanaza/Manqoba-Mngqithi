@@ -60,7 +60,7 @@
                 <!-- Gallery Item 1 -->
                 <div class="gallery-item animate-on-scroll" data-category="programs training">
                     <div class="gallery-image">
-                        <img src="https://images.unsplash.com/photo-1721153669404-a2cb374bf5ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxTb3V0aCUyMEFmcmljYW4lMjBzdHVkZW50cyUyMGxlYXJuaW5nfGVufDF8fHx8MTc3MTI3NTc2MXww&ixlib=rb-4.1.0&q=80&w=1080" alt="Education Program">
+                        <img src="images/about.jpeg" alt="Education Program">
                     </div>
                     <div class="gallery-overlay">
                         <div class="gallery-content">
@@ -74,7 +74,7 @@
                 <!-- Gallery Item 2 -->
                 <div class="gallery-item animate-on-scroll" data-category="community events">
                     <div class="gallery-image">
-                        <img src="https://images.unsplash.com/photo-1729962380300-d8c242371ef1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxTb3V0aCUyMEFmcmljYW4lMjB5b3V0aCUyMGVtcG93ZXJtZW50fGVufDF8fHx8MTc3MTI3NTc2MXww&ixlib=rb-4.1.0&q=80&w=1080" alt="Community Event">
+                        <img src="images/building.jpeg" alt="Community Event">
                     </div>
                     <div class="gallery-overlay">
                         <div class="gallery-content">
@@ -88,7 +88,7 @@
                 <!-- Gallery Item 3 -->
                 <div class="gallery-item animate-on-scroll" data-category="training programs">
                     <div class="gallery-image">
-                        <img src="https://images.unsplash.com/photo-1761039808159-f02b58f07032?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb21tdW5pdHklMjBkZXZlbG9wbWVudCUyMEFmcmljYXxlbnwxfHx8fDE3NzEyNzU3NjF8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Digital Training">
+                        <img src="images/game.jpeg" alt="Digital Training">
                     </div>
                     <div class="gallery-overlay">
                         <div class="gallery-content">
@@ -102,7 +102,7 @@
                 <!-- Gallery Item 4 -->
                 <div class="gallery-item animate-on-scroll" data-category="programs community">
                     <div class="gallery-image">
-                        <img src="https://images.unsplash.com/photo-1768637757037-31720529ee53?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b3V0aCUyMGVkdWNhdGlvbiUyMGNvbW11bml0eXxlbnwxfHx8fDE3NzEyNzU3NjF8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Mentorship">
+                        <img src="images/football.jpeg" alt="Mentorship">
                     </div>
                     <div class="gallery-overlay">
                         <div class="gallery-content">
@@ -116,7 +116,7 @@
                 <!-- Gallery Item 5 -->
                 <div class="gallery-item animate-on-scroll" data-category="events">
                     <div class="gallery-image">
-                        <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwd29tYW4lMjBwcm9mZXNzaW9uYWx8ZW58MXx8fHwxNzcxMjc1NzYxfDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Graduation">
+                        <img src="images/education.jpeg" alt="Graduation">
                     </div>
                     <div class="gallery-overlay">
                         <div class="gallery-content">
@@ -130,7 +130,7 @@
                 <!-- Gallery Item 6 -->
                 <div class="gallery-item animate-on-scroll" data-category="training">
                     <div class="gallery-image">
-                        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwbWFuJTIwcHJvZmVzc2lvbmFsfGVufDF8fHx8MTc3MTI3NTc2MXww&ixlib=rb-4.1.0&q=80&w=1080" alt="Business Training">
+                        <img src="images/membeers.jpeg" alt="Business Training">
                     </div>
                     <div class="gallery-overlay">
                         <div class="gallery-content">
@@ -144,7 +144,7 @@
                 <!-- Gallery Item 7 -->
                 <div class="gallery-item animate-on-scroll" data-category="community">
                     <div class="gallery-image">
-                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwd29tYW4lMjBzbWlsaW5nfGVufDF8fHx8MTc3MTI3NTc2MXww&ixlib=rb-4.1.0&q=80&w=1080" alt="Community Visit">
+                        <img src="images/team.jpeg" alt="Community Visit">
                     </div>
                     <div class="gallery-overlay">
                         <div class="gallery-content">
@@ -158,7 +158,7 @@
                 <!-- Gallery Item 8 -->
                 <div class="gallery-item animate-on-scroll" data-category="programs events">
                     <div class="gallery-image">
-                        <img src="https://images.unsplash.com/photo-1721153669404-a2cb374bf5ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxTb3V0aCUyMEFmcmljYW4lMjBzdHVkZW50cyUyMGxlYXJuaW5nfGVufDF8fHx8MTc3MTI3NTc2MXww&ixlib=rb-4.1.0&q=80&w=1080" alt="Workshop">
+                        <img src="images/homepage.jpeg" alt="Workshop">
                     </div>
                     <div class="gallery-overlay">
                         <div class="gallery-content">
@@ -196,7 +196,7 @@
             <div class="video-grid">
                 <div class="video-item animate-on-scroll">
                     <div class="video-thumbnail">
-                        <img src="https://images.unsplash.com/photo-1729962380300-d8c242371ef1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxTb3V0aCUyMEFmcmljYW4lMjB5b3V0aCUyMGVtcG93ZXJtZW50fGVufDF8fHx8MTc3MTI3NTc2MXww&ixlib=rb-4.1.0&q=80&w=1080" alt="Video">
+                        <img src="images/video1.jpeg" alt="Video">
                         <div class="play-button">
                             <i class="fas fa-play"></i>
                         </div>
@@ -209,7 +209,7 @@
 
                 <div class="video-item animate-on-scroll" style="animation-delay: 0.1s">
                     <div class="video-thumbnail">
-                        <img src="https://images.unsplash.com/photo-1768637757037-31720529ee53?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b3V0aCUyMGVkdWNhdGlvbiUyMGNvbW11bml0eXxlbnwxfHx8fDE3NzEyNzU3NjF8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Video">
+                        <img src="images/video2.jpeg" alt="Video">
                         <div class="play-button">
                             <i class="fas fa-play"></i>
                         </div>
@@ -222,7 +222,7 @@
 
                 <div class="video-item animate-on-scroll" style="animation-delay: 0.2s">
                     <div class="video-thumbnail">
-                        <img src="https://images.unsplash.com/photo-1761039808159-f02b58f07032?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb21tdW5pdHklMjBkZXZlbG9wbWVudCUyMEFmcmljYXxlbnwxfHx8fDE3NzEyNzU3NjF8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Video">
+                        <img src="images/video3.jpeg" alt="Video">
                         <div class="play-button">
                             <i class="fas fa-play"></i>
                         </div>
