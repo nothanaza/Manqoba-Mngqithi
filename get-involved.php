@@ -26,7 +26,7 @@
                 <span>Get Involved</span>
             </div>
             -->
-            
+
              <div class="container header-content">
             <h1 class="page-title animate-fade-in-up" style="animation-delay: 0.4s">
                 Get <span class="gradient-text">Involved</span>
@@ -291,12 +291,13 @@
                     <div class="method-card">
                         <i class="fas fa-university"></i>
                         <h4>Bank Transfer</h4>
-                        <p>Account: Manboba Mngqithi Foundation</p>
+                        <p>Account: Manqoba Mngqithi Foundation</p>
                         <p>Bank: Standard Bank</p>
                         <p>Account No: 123456789</p>
                         <p>Branch: 051001</p>
                     </div>
 
+                    <!--
                     <div class="method-card">
                         <i class="fas fa-credit-card"></i>
                         <h4>Online Payment</h4>
@@ -314,6 +315,8 @@
                         <p>Section 18A tax certificates issued</p>
                         <a href="contact.php">Request Certificate</a>
                     </div>
+                    --> 
+
                 </div>
             </div>
         </div>
