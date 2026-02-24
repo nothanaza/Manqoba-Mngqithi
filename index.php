@@ -242,7 +242,7 @@
 
                 <div class="program-card animate-on-scroll" style="animation-delay: 0.2s">
                     <div class="program-image">
-                        <img src="images/education.jpeg" alt="Technology">
+                        <img src="images/team.jpeg" alt="Technology">
                         <div class="program-overlay gradient-purple"></div>
                         <div class="program-icon icon-purple">
                             <i class="fas fa-code"></i>
@@ -376,10 +376,12 @@
             </div>
 
             <div class="impact-footer animate-on-scroll">
-                <p class="impact-message">
+            <!--   
+            <p class="impact-message">
                     ✨ Together, we're building a brighter future for South Africa ✨
                 </p>
-
+                --> 
+                
                 <div class="section-btn-wrapper">
                     <a href="impact.php" class="btn btn-outline btn-lg">
                         View Our Full Impact

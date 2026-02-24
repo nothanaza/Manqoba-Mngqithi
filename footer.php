@@ -5,7 +5,7 @@
     <div class="container">
         <div class="footer-grid">
             <div class="footer-about">
-                <h3 class="footer-title">Manboba Mngqithi <span class="text-green">Foundation</span></h3>
+                <h3 class="footer-title">Manqoba Mngqithi <span class="text-green">Foundation</span></h3>
                 <p class="footer-description">
                     Empowering youth across South Africa through education, skills development, and community transformation.
                 </p>
@@ -41,11 +41,15 @@
 
         <div class="footer-bottom">
             <p class="copyright">
-                © <?php echo date('Y'); ?> Manboba Mngqithi Foundation. All rights reserved.
+                © <?php echo date('Y'); ?> Manqoba Mngqithi Foundation. All rights reserved.
             </p>
+            
+            <!--
             <p class="made-with">
                 Made with <i class="fas fa-heart heart-icon"></i> for South African youth
             </p>
+            --> 
+
         </div>
     </div>
 </footer>

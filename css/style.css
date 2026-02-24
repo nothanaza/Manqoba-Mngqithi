@@ -2409,7 +2409,8 @@ body {
     position: relative;
     height: 60vh;
     min-height: 420px;
-    margin-top: 80px; /* clear fixed navbar */
+    /* allow navbar to sit over image; content padded below */
+    padding-top: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -3531,10 +3532,19 @@ body {
 .contact-form textarea {
     width: 100%;
     padding: 0.875rem 1rem;
-    border: 2px solid var(--gray-200);
+    border: 2px solid #d1d5db;
     border-radius: 0.5rem;
     font-size: 1rem;
-    transition: border-color 0.3s ease;
+    background: white;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.contact-form input:hover,
+.contact-form select:hover,
+.contact-form textarea:hover {
+    border-color: #9ca3af;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .contact-form input:focus,
@@ -3542,6 +3552,7 @@ body {
 .contact-form textarea:focus {
     outline: none;
     border-color: var(--green-500);
+    box-shadow: 0 4px 16px rgba(34, 197, 94, 0.2);
 }
 
 .contact-form .btn {
@@ -3953,10 +3964,19 @@ body {
 .form-group textarea {
     width: 100%;
     padding: 0.875rem 1rem;
-    border: 2px solid var(--gray-200);
+    border: 2px solid #d1d5db;
     border-radius: 0.5rem;
     font-size: 1rem;
-    transition: border-color 0.3s ease;
+    background: white;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.form-group input:hover,
+.form-group select:hover,
+.form-group textarea:hover {
+    border-color: #9ca3af;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .form-group input:focus,
@@ -3964,6 +3984,7 @@ body {
 .form-group textarea:focus {
     outline: none;
     border-color: var(--orange-500);
+    box-shadow: 0 4px 16px rgba(251, 146, 60, 0.2);
 }
 
 .volunteer-form .btn {
