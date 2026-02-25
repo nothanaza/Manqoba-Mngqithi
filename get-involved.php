@@ -307,7 +307,8 @@
                             <i class="fas fa-external-link-alt"></i>
                         </button>
                     </div>
-
+                     --> 
+                    
                     <div class="method-card">
                         <i class="fas fa-file-invoice"></i>
                         <h4>Tax Certificate</h4>
@@ -315,7 +316,7 @@
                         <p>Section 18A tax certificates issued</p>
                         <a href="contact.php">Request Certificate</a>
                     </div>
-                    --> 
+                   
 
                 </div>
             </div>
